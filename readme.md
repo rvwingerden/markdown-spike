@@ -9,13 +9,13 @@ asd
 
 gravizosample2
  digraph G {
-   main -> parse -> execute
-   main -> init
-   main -> cleanup
+   marcel -> parse -> execute
+   marcel -> init
+   marcel -> cleanup
    execute -> make_string
    execute -> printf
    init -> make_string
-   main -> printf
+   marcel -> printf
    execute -> compare
  }
 gravizosample2

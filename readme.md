@@ -1,17 +1,12 @@
 # This is markdown
 
-asdasdasdasdasd asd asd asasdasddsa
-asdasd
-asd
-asd
-asd
-
+hieronder een aantal markers voor gravizo.... 
 
 gravizosample2
  digraph G {
    marcel -> parse -> execute
    marcel -> init
-   marcel -> cleanup
+   marcel -> schoonmaken
    execute -> make_string
    execute -> printf
    init -> make_string

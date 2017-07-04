@@ -4,13 +4,13 @@ hieronder een aantal markers voor gravizo....
 
 gravizosample2
  digraph G {
-   marcel -> parse -> execute
-   marcel -> init
-   marcel -> schoonmaken
-   execute -> make_string
+   main -> parse -> execute
+   main -> init
+   main -> schoonmaken
+   execute -> Doe_Iets
    execute -> printf
-   init -> make_string
-   marcel -> printf
+   init -> Doe_Iets
+   main -> printf
    execute -> compare
  }
 gravizosample2
